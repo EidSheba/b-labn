@@ -1,0 +1,38 @@
+.menu-section {
+    min-height: 100vh;
+}
+
+.menu-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.menu-card {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.menu-card-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.menu-card-price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.col-lg-5th {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+@media (max-width: 991.98px) {
+    .col-lg-5th {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}

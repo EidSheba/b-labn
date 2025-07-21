@@ -1,0 +1,14 @@
+.footer-section {
+    background: #111;
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 2rem;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.footer-icon:hover {
+    color: #0074D9;
+}
